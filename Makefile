@@ -12,7 +12,7 @@ $(exec): $(objects)
 
 install:
 	make
-	cp ./proto.out /home/marneusc/.local/bin/proto
+	mv ./proto.out /home/marneusc/.local/bin/proto
 
 clean:
 	-rm *.out
